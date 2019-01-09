@@ -16,6 +16,7 @@ header{
     position: relative;
     height: 80px;
     width: 100%;
+    
 }
 .btn_home{
     position: absolute;
@@ -23,6 +24,7 @@ header{
     margin-left: 10%;
 }
 .nav ul{
+    font-family: Arial,"微軟正黑體",BoldMT ,san-serif;
     position: absolute;
     z-index: 1;
     right: 10%;
@@ -42,16 +44,20 @@ header{
     background: #95C94F;
     color: #fff;
 }
-.pic{
-    position: relative;
-    height: 600px;
-    width: 100%;
-    background-color: #95C94F;
-}
 .area{
     position: relative;
     padding: 50px;
     margin-left: 5%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+
+.carousel-inner img{
+    width: 100%;
+    overflow: hidden;
 }
 .title{
     font-size: 32px;
